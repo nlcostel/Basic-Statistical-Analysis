@@ -1,4 +1,4 @@
-#Summary of Imported Titanic Data Set
+# Summary of Imported Titanic Data Set
 Basic Statistical Analysis
 
 # Loads the Pandas Library
