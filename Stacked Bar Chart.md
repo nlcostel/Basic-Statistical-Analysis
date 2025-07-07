@@ -1,4 +1,4 @@
-#Data Visualization Example; imported car crash data as a stacked bar graph
+# Data Visualization Example; imported car crash data as a stacked bar chart
 Basic Statistical Analysis
 
 # Load the Necessary Modules
