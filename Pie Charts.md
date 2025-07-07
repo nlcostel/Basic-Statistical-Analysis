@@ -52,3 +52,46 @@ Basic Statistical Analysis
   plt.pie(sizes, labels=labels, autopct=autopct);
 
 ![image](https://github.com/user-attachments/assets/23d6dd39-efc1-4828-a9a4-60dba69c490b)
+
+# Create Exploded Pie Chart
+
+
+# Load Necessary Packages
+  import matplotlib.pyplot as plt
+
+  import seaborn as sns
+
+# Load the Titanic Dataset
+  df = sns.load_dataset("titanic")
+
+# Calculate the Number in Each Class
+  a = df[df.survived == 1]["survived"].count()
+
+  b = df[df.survived == 0]["survived"].count()
+
+# Create a Tuple of the Categories
+  explodeTuple = (0.1, 0.0)
+
+# Define Data to Plot
+  labels = 'Survived', 'Did not survive'
+
+  sizes = [a, b]
+
+# Define Plot
+  plt.pie(sizes, labels=labels, autopct='%1.1f%%', explode=explodeTuple)
+
+# Set Title
+  plt.title('Survivors of the Titanic', fontsize=20)
+
+# Set Axes to be Equal to Produce a Perfectly Circular Chart
+  plt.axis('equal')
+
+# Save the Image
+
+# plt.savefig("explodedpiechart.png")
+
+# Show the Image
+  plt.show()
+
+![image](https://github.com/user-attachments/assets/469570d5-a7e5-4509-afaf-dd9f86e1b90f)
+
