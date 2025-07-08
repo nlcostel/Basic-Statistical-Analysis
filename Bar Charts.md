@@ -77,7 +77,7 @@ f, ax = plt.subplots()
  
  ![image](https://github.com/user-attachments/assets/66a9c684-7304-40f6-b3ba-dab48ab253d1)
 
- # Data Visualization Example; imported car crash data as a stacked bar chart
+ # Data Visualization Example; Stacked Bar Chart
 Basic Statistical Analysis
 
 # Load the Necessary Modules
