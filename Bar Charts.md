@@ -32,6 +32,8 @@ Basic Statistical Analysis
 
 ![image](https://github.com/user-attachments/assets/33b4364f-dcf5-42f4-a714-da76ac595160)
 
+
+
 # Horizontal Grouped Bar Chart Using Car Crash Data Set
 
 # Load the Necessary Modules
@@ -77,8 +79,9 @@ f, ax = plt.subplots()
  
  ![image](https://github.com/user-attachments/assets/66a9c684-7304-40f6-b3ba-dab48ab253d1)
 
- # Data Visualization Example; Stacked Bar Chart
-Basic Statistical Analysis
+ 
+
+ # Stacked Bar Chart Using Car Crash Data Set
 
 # Load the Necessary Modules
     import matplotlib.pyplot as plt
@@ -122,7 +125,9 @@ plt.title('Speeding-related automobile collisions', fontsize=20)
 
 ![image](https://github.com/user-attachments/assets/f5b3bbfd-bc8a-44ed-9679-240998d5fbe2)
 
-# Data Visualization Example; vertical vs. horizontal bar charts
+
+
+# Vertical Vs. Horizontal Bar Charts
 Basic Statistical Analysis
 
 # Loads the Necessary Modules
@@ -152,6 +157,7 @@ Basic Statistical Analysis
   plt.show()
 
 ![image](https://github.com/user-attachments/assets/41184305-273e-4900-aa23-abfc919a89ca)
+
 
 # Plots a Horizontal Bar Chart
   sns.countplot(y="class", color="b", data=titanic)
