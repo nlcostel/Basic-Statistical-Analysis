@@ -1,4 +1,4 @@
-# Data Visualization Example (s); grouped bar charts
+# Data Visualization Example (s); Bar Charts
 Basic Statistical Analysis
 
 # Vertical Grouped Bar Chart using Titanic Data Set
