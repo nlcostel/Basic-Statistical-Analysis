@@ -167,6 +167,41 @@ Basic Statistical Analysis
 ![image](https://github.com/user-attachments/assets/6ef17fe7-a615-4360-90cb-5079fd91f112)
 
 
+# Data Visualization Example; Histograms
+Basic Statistical Analysis
 
+# Load packages
+  import pandas as pd
 
+  import matplotlib.pyplot as plt
+
+# Load data
+  heights = pd.read_csv("height.csv")
+
+# Plot histogram
+  fig, ax = plt.subplots()
+
+  plt.hist(heights['Height'], bins=6)
+
+  ax.set_xlabel('Height')
+
+  ax.set_ylabel('Frequency')
+
+# plt.savefig('histogram6.png')
+plt.show()
+  
+![image](https://github.com/user-attachments/assets/56d2acdf-06b0-45ba-bc6d-e8c3b7d82f46)
+
+  fig, ax = plt.subplots()
+
+# Plotting with more bins
+  plt.hist(heights['Height'], bins=10)
+
+  ax.set_xlabel('Height')
+  
+  ax.set_ylabel('Frequency')
+
+  plt.show()
+
+![image](https://github.com/user-attachments/assets/c73f1061-0118-4bbb-bc34-597694ff5c85)
 
