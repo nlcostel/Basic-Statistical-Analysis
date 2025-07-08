@@ -176,9 +176,9 @@ Probability that a specific mean is 450 or less = 0.1408
 
 # IN SUMMARY
 
-Mean of the TPCP population data: 20.304
+Mean of the TPCP population data: 508.98
 
-Mean of random sample (n=50): 20.263
+Mean of random sample (n=50): 501.16
 
 50 random values of the population had an average very close to the population mean, 
 showing that a sufficient sample can produce a representation for the estimated population mean. So yes, this was a good match. 
@@ -190,9 +190,9 @@ even though the population may not be perfectly normal.
 This further confirms the central limit theorem, which states that sampling distribution of the sample mean
 approaches normality as the number of samples increases.
 
-Grand mean: 20.291
+Grand mean: 508.69
 
-Standard deviation of the sample means: 0.299 showing limited variation
+Standard deviation of the sample means: 54.5 
 
 The grand mean is also very close to the population mean. 
 This confirms the second part of the central limit theorem, 
